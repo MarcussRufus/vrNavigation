@@ -164,6 +164,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/jumpInput",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/crouchInput",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/TeleportDirectionUp axis",
 			"type": "vector1"
 		},
@@ -172,35 +180,27 @@
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/MotionControllerThumbLeft_Y axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
-			"type": "vector2"
-		},
-		{
-			"name": "/actions/main/in/MotionControllerThumbLeft_X axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/MotionControllerThumbRight_Y axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
-			"type": "vector2"
-		},
-		{
-			"name": "/actions/main/in/MotionControllerThumbRight_X axis",
-			"type": "vector1"
-		},
-		{
 			"name": "/actions/main/in/MoveRight axis",
 			"type": "vector1"
 		},
 		{
 			"name": "/actions/main/in/Move_forward axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/controllerBackward axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/controllerLeft axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/controllerForward axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/controllerRight axis",
 			"type": "vector1"
 		}
 	],
@@ -448,16 +448,16 @@
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/jumpInput": "jumpInput",
+			"/actions/main/in/crouchInput": "crouchInput",
 			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
 			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",
-			"/actions/main/in/MotionControllerThumbLeft_Y axis": "MotionControllerThumbLeft_Y",
-			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
-			"/actions/main/in/MotionControllerThumbLeft_X axis": "MotionControllerThumbLeft_X",
-			"/actions/main/in/MotionControllerThumbRight_Y axis": "MotionControllerThumbRight_Y",
-			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
-			"/actions/main/in/MotionControllerThumbRight_X axis": "MotionControllerThumbRight_X",
 			"/actions/main/in/MoveRight axis": "MoveRight",
 			"/actions/main/in/Move_forward axis": "Move_forward",
+			"/actions/main/in/controllerBackward axis": "controllerBackward",
+			"/actions/main/in/controllerLeft axis": "controllerLeft",
+			"/actions/main/in/controllerForward axis": "controllerForward",
+			"/actions/main/in/controllerRight axis": "controllerRight",
 			"/actions/main": "Main Game Actions"
 		}
 	]

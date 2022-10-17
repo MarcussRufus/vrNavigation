@@ -52,24 +52,24 @@
 					}
 				},
 				{
-					"mode": "joystick",
-					"path": "/user/hand/left/input/joystick",
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
-						"position":
+						"click":
 						{
-							"output": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d"
+							"output": "/actions/main/in/jumpInput"
 						}
 					}
 				},
 				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/joystick",
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
-						"position":
+						"click":
 						{
-							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
+							"output": "/actions/main/in/crouchInput"
 						}
 					}
 				}
